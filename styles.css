@@ -512,7 +512,6 @@ a:hover:before {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  margin-bottom: 60px;
 }
 
 @media (min-width: 992px) {
@@ -530,6 +529,12 @@ a:hover:before {
 
 .wrapper .logo img {
   width: 100%;
-  max-width: 300px;
+  max-width: 100px;
+}
+
+@media (min-width: 992px) {
+  .wrapper .logo img {
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
